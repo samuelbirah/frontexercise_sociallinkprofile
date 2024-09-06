@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter';
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 320px;
+    /* width: 1440px; */
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.container img {
+    border-radius: 100px;
+    width: 100px;
+}
+
+.name {
+    font-size: 1.7em;
+    color: white;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+
+.address {
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.job {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.container button {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.container button:hover {
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: none;
+    
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 400px) {
+    .container {
+        margin: 20px;
+    }
+}
